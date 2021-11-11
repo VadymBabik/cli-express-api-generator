@@ -1,0 +1,36 @@
+{
+  "name": "cli-express-api-generator",
+  "version": "1.0.0",
+  "description": "cli-express-api-generator",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "prebuild": "rimraf dist",
+    "build": "tsc --build",
+    "start": "ts-node src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VadymBabik/cli-express-api-generator.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Vadym Babik",
+    "email": "vadym.babik@gmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/VadymBabik/cli-express-api-generator/issues"
+  },
+  "homepage": "https://github.com/VadymBabik/cli-express-api-generator#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "rimraf": "^3.0.2"
+  }
+}
