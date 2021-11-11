@@ -2,8 +2,8 @@
   "name": "cli-express-api-generator",
   "version": "1.0.0",
   "description": "cli-express-api-generator",
-  "main": "index.js",
-  "bin": "index.js",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
   "scripts": {
     "dev": "nodemon src/index.ts",
     "prebuild": "rimraf dist",
