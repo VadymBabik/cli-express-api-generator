@@ -1,7 +1,7 @@
 {
-  "name": "cli-express-api-generator",
+  "name": "cli-generator-api-express",
   "version": "1.0.0",
-  "description": "cli-express-api-generator",
+  "description": "cli-generator-api-express",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
@@ -14,12 +14,14 @@
     "type": "git",
     "url": "git+https://github.com/VadymBabik/cli-express-api-generator.git"
   },
-  "keywords": [],
+  "keywords": [
+    "cli-generator-api-express"
+  ],
   "author": {
-    "name": "Vadym Babik",
+    "name": "Vadym_Babik",
     "email": "vadym.babik@gmail.com"
   },
-  "license": "MIT",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/VadymBabik/cli-express-api-generator/issues"
   },
