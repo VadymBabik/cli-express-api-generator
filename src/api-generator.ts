@@ -1,7 +1,7 @@
 import chalk from "chalk";
 import constants from "./constants";
-import routeGeneration from "./routeGeneration";
-import routeRegistration from "./routeRegistration";
+import routeGeneration from "./route-generation";
+import routeRegistration from "./route-registration";
 
 const apiGenerator = async (entityName: string) => {
   try {

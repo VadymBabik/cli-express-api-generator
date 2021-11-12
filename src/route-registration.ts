@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import getPathSrc from "./services";
 import path from "path";
 import constants from "./constants";
-import { isIndex } from "./services/isIndex";
+import { isIndex } from "./services/is-index";
 
 const routeRegistration = async (api: string[], entityName: string) => {
   const apiSrcPath = await getPathSrc();
