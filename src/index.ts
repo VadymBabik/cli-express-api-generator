@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-// import apiGenerator from "./api-creator";
-//
-// apiGenerator(process.argv[2])
+import apiGenerator from "./apiGenerator";
 
-console.log("Hello CLI")
+apiGenerator(process.argv[2]);
