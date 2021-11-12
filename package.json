@@ -1,7 +1,7 @@
 {
-  "name": "cli-generator-api-vb",
+  "name": "cli-generator-api-express",
   "version": "1.0.0",
-  "description": "cli-generator-vb",
+  "description": "cli-generator-api-express",
   "main": "dist/index.js",
   "bin": "dist/index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/VadymBabik/cli-express-api-generator.git"
   },
   "keywords": [
-    "cli-generator-api-vb"
+    "cli-generator-api-express"
   ],
   "author": {
     "name": "Vadym_Babik",
